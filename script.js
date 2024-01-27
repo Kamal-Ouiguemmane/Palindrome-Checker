@@ -10,7 +10,7 @@ function onSubmit() {
     return;
   }
   const formattedExpression = removePunctuation(expression);
-  generateResultMessage(expression, isAPalindrome(expression));
+  generateResultMessage(expression, isAPalindrome(formattedExpression));
 }
 
 function isAPalindrome(str) {
