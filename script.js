@@ -1,6 +1,6 @@
 const textInput = document.getElementById('text-input');
 const checkButton = document.getElementById('check-btn');
-const resultElement = document.getElementById('result');
+const resultElement = document.getElementById('result-text');
 
 function onSubmit() {
   const expression = textInput.value.trim();

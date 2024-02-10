@@ -50,6 +50,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.game-container input:focus {
+  outline: none;
+}
+
 .game-container button {
   padding: 0.5rem 0.7rem;
   border: none;
